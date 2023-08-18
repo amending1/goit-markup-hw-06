@@ -15,6 +15,14 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-phone-black-18dp-1 {
+  width: 0.75em;
+}
+
+.icon-email-black-18dp-1 {
+  width: 0.75em;
+}
+
 .icon-Client-1-1 {
   width: 1.9091796875em;
 }

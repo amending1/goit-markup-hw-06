@@ -60,6 +60,32 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
 								<use href="./images/icons.svg#icon-close-black"></use>
 							</svg>
 						</button>
+						<h4 class="modal-heading">Leave your contacts and we will call you back</h4>
+						<form class="modal-form" action="" >
+							<label for="name"><p class="input-text">Name</p></label>
+							<div class="modal-field-wrapper">
+								<input class="modal-input" id="name" type="name" name="name" required /></label>
+								<svg class="modal-icon-1"><use href="./images/icons.svg#icon-person-black-18dp-1"></use></svg>
+							</div>
+							<label for="phone"><p class="input-text">Phone</p></label
+							<div class="modal-field-wrapper">
+								<input class="modal-input" id="phone" type="phone" name="phone" required />
+							<svg class="modal-icon"><use href="./images/icons.svg#icon-phone-black-18dp-1"></use></svg>
+							</div>
+							<label for="e-mail"><p class="input-text">E-mail</p></label>
+							<div class="modal-field-wrapper">
+								<input class="modal-input" id="e-mail" type="e-mail" name="e-mail" required />
+								<svg class="modal-icon"><use href="./images/icons.svg#icon-email-black-18dp-1"></use></svg>
+							</div>
+							<p class="input-text">Comment</p>
+							<div class="modal-field-wrapper">
+								<label for="comment"></label>
+								<textarea required name="comment" id="comment" placeholder="Text input"></textarea>
+							</div>
+							<input name="tc" id="tc" type="checkbox" />
+							<label for="tc">I accept the terms and conditions of the Privacy Policy</label>
+							<button type="submit">Send</button>
+						</form>
 					</div>
 				</div>
 			</section>
@@ -366,15 +392,13 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
 						</li>
 					</ul>
 				</div>
-
 				<div class="footer-subscribe">
-					<form class="footer-form">
+					<form>
+						<p class="footer-media-text">Subscribe</p>
 						<div class="footer-field-wrapper">
-							<label for="email"><h3 class="footer-media-text">Subscribe</h3></label>
+							<label for="email"></label>
 							<input class="footer-input" id="email" type="email" name="email" placeholder="E-mail" required />
-						</div>
-						<div>
-							<div>
+							<div class="footer-button-wrapper">
 								<button class="button-subscribe" type="submit">
 									Subscribe
 									<svg class="footer-subscribe-icon">
