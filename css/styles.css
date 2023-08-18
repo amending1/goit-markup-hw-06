@@ -211,23 +211,23 @@ ul {
 	line-height: 1.5px;
 	letter-spacing: 0.32px;
 	padding-top: 72px;
-	text-align: center;
 }
 
 .modal-form {
 	max-width: 360px;
 	padding-left: 24px;
 	margin-top: 16px;
+	text-align: left;
 }
 
 .modal-field-wrapper {
 	height: 40px;
-	max-width: 100%;
-	flex-grow: 1;
-}
-
-.modal-field-wrapper input:not([type="checkbox"]) {
-	border: none;
+	display: flex;
+	padding-left: 8px auto 8px 16px;
+	border-radius: 4px;
+	border: 1px solid rgba(46, 47, 66, 0.4);
+	margin-bottom: 8px;
+	margin-bottom: 4px;
 }
 
 .modal-icon-1 {
@@ -242,8 +242,9 @@ ul {
 	color: var(--modal-overlay);
 }
 
-.modal-icon-1 .modal-icon-2:focus {
-	color: var(--pressed-state);
+.modal-icon-1,
+.modal-icon-2:focus-within {
+	border-color: var(--pressed-state);
 }
 
 .input-text {
@@ -255,11 +256,35 @@ ul {
 	letter-spacing: 0.48px;
 }
 
-textarea,
-input {
+.input-text > a {
+	text-decoration: underline;
+}
+
+.tc-wrapper {
+	display: flex;
+	gap: 8px;
+}
+
+.button-send-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button-send {
 	border-radius: 4px;
-	background: var(--modal-background);
-	border: 1px solid rgba(46, 47, 66, 0.4);
+	background: var(--primary-brand);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+	max-width: 169px;
+	max-height: 50px;
+	padding: 16px 32px;
+	color: #fff;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.64px;
+	margin-top: 24px;
 }
 
 nav {
@@ -690,7 +715,6 @@ nav {
 	border: 1px solid var(--white-background);
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 	background-color: var(--dark);
-	position: relative;
 }
 
 .footer-input::placeholder {

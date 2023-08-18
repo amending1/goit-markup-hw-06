@@ -61,20 +61,23 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
 							</svg>
 						</button>
 						<h4 class="modal-heading">Leave your contacts and we will call you back</h4>
-						<form class="modal-form" action="" >
-							<label for="name"><p class="input-text">Name</p></label>
+						<form class="modal-form">
+							<p class="input-text">Name</p>
+							<label for="username"></label>
 							<div class="modal-field-wrapper">
-								<input class="modal-input" id="name" type="name" name="name" required /></label>
+								<input class="modal-input" id="username" type="text" name="name" />
 								<svg class="modal-icon-1"><use href="./images/icons.svg#icon-person-black-18dp-1"></use></svg>
 							</div>
-							<label for="phone"><p class="input-text">Phone</p></label
+							<p class="input-text">Phone</p>
+							<label for="phone"></label>
 							<div class="modal-field-wrapper">
-								<input class="modal-input" id="phone" type="phone" name="phone" required />
-							<svg class="modal-icon"><use href="./images/icons.svg#icon-phone-black-18dp-1"></use></svg>
+								<input class="modal-input" id="phone" type="tel" name="phone" required />
+								<svg class="modal-icon"><use href="./images/icons.svg#icon-phone-black-18dp-1"></use></svg>
 							</div>
-							<label for="e-mail"><p class="input-text">E-mail</p></label>
+							<p class="input-text">E-mail</p>
+							<label for="e-mail"></label>
 							<div class="modal-field-wrapper">
-								<input class="modal-input" id="e-mail" type="e-mail" name="e-mail" required />
+								<input class="modal-input" id="e-mail" type="email" name="e-mail" required />
 								<svg class="modal-icon"><use href="./images/icons.svg#icon-email-black-18dp-1"></use></svg>
 							</div>
 							<p class="input-text">Comment</p>
@@ -82,9 +85,17 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
 								<label for="comment"></label>
 								<textarea required name="comment" id="comment" placeholder="Text input"></textarea>
 							</div>
-							<input name="tc" id="tc" type="checkbox" />
-							<label for="tc">I accept the terms and conditions of the Privacy Policy</label>
-							<button type="submit">Send</button>
+							<div class="tc-wrapper">
+								<input name="tc" id="tc" type="checkbox" />
+								<p class="input-text">
+									I accept the terms and conditions of the
+									<a href="#">Privacy Policy</a>
+								</p>
+							</div>
+							<label for="tc"></label>
+							<div class="button-send-wrapper">
+								<button class="button-send" type="submit">Send</button>
+							</div>
 						</form>
 					</div>
 				</div>
@@ -398,7 +409,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
 						<div class="footer-field-wrapper">
 							<label for="email"></label>
 							<input class="footer-input" id="email" type="email" name="email" placeholder="E-mail" required />
-							<div class="footer-button-wrapper">
+							<div>
 								<button class="button-subscribe" type="submit">
 									Subscribe
 									<svg class="footer-subscribe-icon">
