@@ -62,27 +62,29 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
 						</button>
 						<p class="modal-heading">Leave your contacts and we will call you back</p>
 						<form class="modal-form">
-							<div class="modal-field-wrapper">
-								<p class="input-text">Name</p>
-								<label for="username"></label>
-								<input class="modal-input" id="username" type="text" name="name" />
-								<svg class="modal-icon-1"><use href="./images/icons.svg#icon-person-black-18dp-1"></use></svg>
+							<div>
+								<label for="username"><span class="input-text">Name</span></label>
+								<div class="modal-field-wrapper">
+									<input id="username" type="text" name="name" />
+									<svg class="modal-icon-1"><use href="./images/icons.svg#icon-person-black-18dp-1"></use></svg>
+								</div>
+							</div>
+							<div>
+								<label for="phone"><span class="input-text">Phone</span></label>
+								<div class="modal-field-wrapper">
+									<input id="phone" type="tel" name="phone" required />
+									<svg class="modal-icon-2"><use href="./images/icons.svg#icon-phone-black-18dp-1"></use></svg>
+								</div>
+							</div>
+							<div>
+								<label for="e-mail"><span class="input-text">E-mail</span></label>
+								<div class="modal-field-wrapper">
+									<input id="e-mail" type="email" name="e-mail" required />
+									<svg class="modal-icon-2"><use href="./images/icons.svg#icon-email-black-18dp-1"></use></svg>
+								</div>
 							</div>
 							<div class="modal-field-wrapper">
-								<p class="input-text">Phone</p>
-								<label for="phone"></label>
-								<input class="modal-input" id="phone" type="tel" name="phone" required />
-								<svg class="modal-icon-2"><use href="./images/icons.svg#icon-phone-black-18dp-1"></use></svg>
-							</div>
-							<div class="modal-field-wrapper">
-								<p class="input-text">E-mail</p>
-								<label for="e-mail"></label>
-								<input class="modal-input" id="e-mail" type="email" name="e-mail" required />
-								<svg class="modal-icon-2"><use href="./images/icons.svg#icon-email-black-18dp-1"></use></svg>
-							</div>
-							<div class="modal-field-wrapper">
-								<p class="input-text">Comment</p>
-								<label for="comment"></label>
+								<label for="comment"><span class="input-text">Comment</span></label>
 								<textarea
 									class="modal-comment"
 									required
@@ -93,10 +95,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
 							</div>
 							<div class="tc-wrapper">
 								<input name="tc" id="tc" type="checkbox" />
-								<p class="input-text">
+								<span class="input-text">
 									I accept the terms and conditions of the
 									<a href="#">Privacy Policy</a>
-								</p>
+								</span>
 							</div>
 							<label for="tc"></label>
 							<div class="button-send-wrapper">
