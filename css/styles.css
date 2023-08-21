@@ -318,25 +318,13 @@ ul {
 	gap: 8px;
 }
 
-.tc-checkbox {
+.checkbox-icon {
+	display: inline-flex;
 	width: 16px;
 	height: 16px;
-	border: none;
-	outline: none;
-	border: 1px solid rgba(46, 47, 66, 0.4);
-}
-
-.tc-wrapper > label {
-	position: relative;
-}
-
-.hidden {
-	width: 16px;
-	height: 16px;
-	visibility: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
+	border-radius: 2px;
+	justify-content: center;
+	align-items: center;
 }
 
 .button-send-wrapper {
