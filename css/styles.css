@@ -313,20 +313,30 @@ ul {
 	padding-left: 16px;
 }
 
-.modal-comment:focus::placeholder {
-	color: var(--primary-brand);
-}
-
 .tc-wrapper {
 	display: flex;
 	gap: 8px;
 }
 
-.tc-wrapper input {
-	stroke: none;
+.tc-checkbox {
+	width: 16px;
+	height: 16px;
+	border: none;
 	outline: none;
-	stroke-width: 1px;
-	stroke: var(--navyblue-modal, rgba(46, 47, 66, 0.4));
+	border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
+.tc-wrapper > label {
+	position: relative;
+}
+
+.hidden {
+	width: 16px;
+	height: 16px;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .button-send-wrapper {
