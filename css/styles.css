@@ -314,17 +314,57 @@ ul {
 }
 
 .tc-wrapper {
+	margin-top: 16px;
 	display: flex;
 	gap: 8px;
 }
 
-.checkbox-icon {
-	display: inline-flex;
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.modal-check {
+}
+
+.modal-check-text {
+	color: var(--subtle-text);
+	font-size: 12px;
+	line-height: 1.17;
+	letter-spacing: 0.48px;
+	margin-bottom: 16px;
+	display: block;
+}
+
+.modal-check-text span {
 	width: 16px;
 	height: 16px;
+	border: 1px solid rgba(46, 47, 66, 0.4);
 	border-radius: 2px;
-	justify-content: center;
+	display: inline-flex;
 	align-items: center;
+	justify-content: center;
+	fill: transparent;
+	transition: background-color 250ms var(--tr-function), border 250ms var(--tr-function), fill 250ms var(--tr-function);
+	margin-right: 8px;
+}
+
+.checkbox-icon {
+	fill: #fff;
+}
+
+.modal-check:checked + .modal-check-text span {
+	background-color: var(--pressed-state);
+	fill: var(--light);
+	border: none;
 }
 
 .button-send-wrapper {
