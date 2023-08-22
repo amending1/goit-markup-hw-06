@@ -332,9 +332,6 @@ ul {
 	overflow: hidden;
 }
 
-.modal-check {
-}
-
 .modal-check-text {
 	color: var(--subtle-text);
 	font-size: 12px;
@@ -359,6 +356,8 @@ ul {
 
 .checkbox-icon {
 	fill: #fff;
+	width: 10px;
+	height: 8px;
 }
 
 .modal-check:checked + .modal-check-text span {

@@ -4,123 +4,42 @@
     {
       "icon": {
         "paths": [
-          "M128 32h768c53.019 0 96 42.981 96 96v768c0 53.019-42.981 96-96 96h-768c-53.019 0-96-42.981-96-96v-768c0-53.019 42.981-96 96-96z"
+          "M1081.034 32.647c22.118-21.172 51.553-32.876 82.093-32.644 30.538 0.232 59.794 12.383 81.591 33.889 21.798 21.506 34.433 50.684 35.241 81.378 0.809 30.693-10.277 60.503-30.915 83.136l-626.508 787.752c-10.774 11.667-23.776 21.029-38.23 27.528-14.454 6.497-30.063 9.999-45.893 10.294-15.831 0.294-31.558-2.623-46.241-8.579-14.684-5.956-28.022-14.828-39.217-26.085l-415.474-417.714c-11.57-10.839-20.85-23.91-27.287-38.435-6.437-14.523-9.898-30.202-10.177-46.099s2.63-31.689 8.553-46.431c5.923-14.743 14.739-28.136 25.921-39.379 11.183-11.242 24.503-20.106 39.167-26.061s30.37-8.879 46.183-8.599c15.812 0.28 31.406 3.761 45.853 10.231 14.445 6.472 27.447 15.802 38.228 27.434l328.799 330.414 545.329-698.557c0.982-1.215 2.030-2.375 3.14-3.473h-0.156z"
         ],
         "attrs": [
           {
-            "fill": "none",
-            "strokeLinejoin": "miter",
-            "strokeLinecap": "butt",
-            "strokeMiterlimit": "4",
-            "strokeWidth": 64
+            "fill": "rgb(244, 244, 253)"
           }
         ],
+        "width": 1280,
         "isMulticolor": false,
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "checkbox"
-        ],
-        "colorPermutations": {}
-      },
-      "attrs": [
-        {
-          "fill": "none",
-          "strokeLinejoin": "miter",
-          "strokeLinecap": "butt",
-          "strokeMiterlimit": "4",
-          "strokeWidth": 64
-        }
-      ],
-      "properties": {
-        "order": 119,
-        "id": 10,
-        "name": "checkbox",
-        "prevSize": 32
-      },
-      "setIdx": 0,
-      "setId": 3,
-      "iconIdx": 0
-    },
-    {
-      "icon": {
-        "paths": [
-          "M128 32h768c53.019 0 96 42.981 96 96v768c0 53.019-42.981 96-96 96h-768c-53.019 0-96-42.981-96-96v-768c0-53.019 42.981-96 96-96z",
-          "M732.518 272.324c11.059-10.586 25.773-16.438 41.043-16.322s29.901 6.191 40.8 16.944c10.899 10.753 17.216 25.342 17.619 40.689s-5.139 30.252-15.456 41.568l-313.256 393.878c-5.387 5.83-11.888 10.509-19.115 13.76s-15.032 4.998-22.947 5.146c-7.916 0.147-15.779-1.312-23.121-4.288s-14.011-7.411-19.608-13.043l-207.737-208.855c-5.786-5.42-10.426-11.955-13.644-19.217s-4.949-15.101-5.089-23.050c-0.14-7.949 1.315-15.844 4.276-23.215s7.37-14.068 12.961-19.69c5.592-5.621 12.252-10.053 19.584-13.030s15.185-4.44 23.091-4.3c7.906 0.14 15.703 1.88 22.926 5.116s13.724 7.901 19.114 13.717l164.399 165.207 272.666-349.279c0.486-0.608 1.011-1.187 1.568-1.736h-0.077z",
-          "M128 32h768c53.019 0 96 42.981 96 96v768c0 53.019-42.981 96-96 96h-768c-53.019 0-96-42.981-96-96v-768c0-53.019 42.981-96 96-96z"
-        ],
-        "attrs": [
-          {
-            "fill": "rgb(64, 75, 191)"
-          },
-          {
-            "fill": "rgb(244, 244, 253)"
-          },
-          {
-            "fill": "none",
-            "stroke": "rgb(64, 75, 191)",
-            "strokeLinejoin": "miter",
-            "strokeLinecap": "butt",
-            "strokeMiterlimit": "4",
-            "strokeWidth": 64
-          }
-        ],
-        "isMulticolor": true,
-        "isMulticolor2": true,
-        "grid": 0,
-        "tags": [
-          "click"
+          "Vector"
         ],
         "colorPermutations": {
           "2442442531255255255177902291": [
             {
-              "f": 0
-            },
-            {
               "f": 1
-            },
-            {
-              "s": 0
-            }
-          ],
-          "2442442531255255255164751911": [
-            {
-              "f": 0
-            },
-            {
-              "f": 1
-            },
-            {
-              "s": 0
             }
           ]
         }
       },
       "attrs": [
         {
-          "fill": "rgb(64, 75, 191)"
-        },
-        {
           "fill": "rgb(244, 244, 253)"
-        },
-        {
-          "fill": "none",
-          "stroke": "rgb(64, 75, 191)",
-          "strokeLinejoin": "miter",
-          "strokeLinecap": "butt",
-          "strokeMiterlimit": "4",
-          "strokeWidth": 64
         }
       ],
       "properties": {
-        "order": 118,
+        "order": 124,
         "id": 9,
-        "name": "click",
+        "name": "Vector",
         "prevSize": 32
       },
       "setIdx": 0,
       "setId": 3,
-      "iconIdx": 1
+      "iconIdx": 0
     },
     {
       "icon": {
@@ -141,14 +60,14 @@
       },
       "attrs": [],
       "properties": {
-        "order": 116,
+        "order": 125,
         "id": 8,
         "name": "person",
         "prevSize": 32
       },
       "setIdx": 0,
       "setId": 3,
-      "iconIdx": 2
+      "iconIdx": 1
     },
     {
       "icon": {
@@ -170,14 +89,14 @@
       },
       "attrs": [],
       "properties": {
-        "order": 115,
+        "order": 126,
         "id": 7,
         "name": "phone",
         "prevSize": 32
       },
       "setIdx": 0,
       "setId": 3,
-      "iconIdx": 3
+      "iconIdx": 2
     },
     {
       "icon": {
@@ -199,14 +118,14 @@
       },
       "attrs": [],
       "properties": {
-        "order": 117,
+        "order": 127,
         "id": 6,
         "name": "email",
         "prevSize": 32
       },
       "setIdx": 0,
       "setId": 3,
-      "iconIdx": 4
+      "iconIdx": 3
     },
     {
       "icon": {
@@ -243,14 +162,14 @@
         }
       ],
       "properties": {
-        "order": 113,
+        "order": 128,
         "id": 5,
         "name": "Frame-3",
         "prevSize": 32
       },
       "setIdx": 0,
       "setId": 3,
-      "iconIdx": 5
+      "iconIdx": 4
     },
     {
       "icon": {
@@ -279,14 +198,14 @@
         {}
       ],
       "properties": {
-        "order": 112,
+        "order": 129,
         "id": 4,
         "name": "close-black",
         "prevSize": 32
       },
       "setIdx": 0,
       "setId": 3,
-      "iconIdx": 6
+      "iconIdx": 5
     },
     {
       "icon": {
@@ -323,14 +242,14 @@
         }
       ],
       "properties": {
-        "order": 97,
+        "order": 130,
         "id": 3,
         "name": "facebook-1",
         "prevSize": 32
       },
       "setIdx": 0,
       "setId": 3,
-      "iconIdx": 7
+      "iconIdx": 6
     },
     {
       "icon": {
@@ -393,14 +312,14 @@
         }
       ],
       "properties": {
-        "order": 98,
+        "order": 131,
         "id": 2,
         "name": "instagram-2",
         "prevSize": 32
       },
       "setIdx": 0,
       "setId": 3,
-      "iconIdx": 8
+      "iconIdx": 7
     },
     {
       "icon": {
@@ -463,14 +382,14 @@
         }
       ],
       "properties": {
-        "order": 99,
+        "order": 132,
         "id": 1,
         "name": "linkedin-1",
         "prevSize": 32
       },
       "setIdx": 0,
       "setId": 3,
-      "iconIdx": 9
+      "iconIdx": 8
     },
     {
       "icon": {
@@ -491,14 +410,14 @@
       },
       "attrs": [],
       "properties": {
-        "order": 101,
+        "order": 133,
         "id": 0,
         "name": "twitter-1",
         "prevSize": 32
       },
       "setIdx": 0,
       "setId": 3,
-      "iconIdx": 10
+      "iconIdx": 9
     },
     {
       "icon": {
@@ -519,7 +438,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 102,
+        "order": 143,
         "id": 13,
         "name": "Client-1-1",
         "prevSize": 32
@@ -565,7 +484,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 103,
+        "order": 142,
         "id": 12,
         "name": "Client-2-1",
         "prevSize": 32
@@ -605,7 +524,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 104,
+        "order": 141,
         "id": 11,
         "name": "Client-3-1",
         "prevSize": 32
@@ -636,7 +555,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 105,
+        "order": 140,
         "id": 10,
         "name": "Client-4-1",
         "prevSize": 32
@@ -673,7 +592,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 106,
+        "order": 139,
         "id": 9,
         "name": "Client-5-1",
         "prevSize": 32
@@ -718,7 +637,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 107,
+        "order": 138,
         "id": 8,
         "name": "Client-6-1",
         "prevSize": 32
@@ -767,7 +686,7 @@
         }
       ],
       "properties": {
-        "order": 108,
+        "order": 137,
         "id": 3,
         "name": "Icon-1",
         "prevSize": 32
@@ -836,7 +755,7 @@
         }
       ],
       "properties": {
-        "order": 109,
+        "order": 136,
         "id": 2,
         "name": "Icon-2",
         "prevSize": 32
@@ -915,7 +834,7 @@
         }
       ],
       "properties": {
-        "order": 110,
+        "order": 135,
         "id": 1,
         "name": "Icon-3",
         "prevSize": 32
@@ -1154,7 +1073,7 @@
         }
       ],
       "properties": {
-        "order": 111,
+        "order": 134,
         "id": 0,
         "name": "Icon-4",
         "prevSize": 32
