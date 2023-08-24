@@ -65,14 +65,14 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
 							<div>
 								<label for="username"><span class="input-text">Name</span></label>
 								<div class="modal-field-wrapper">
-									<input id="username" type="text" name="name" />
+									<input id="username" type="text" name="name" required />
 									<svg class="modal-icon-1"><use href="./images/icons.svg#icon-person"></use></svg>
 								</div>
 							</div>
 							<div>
 								<label for="phone"><span class="input-text">Phone</span></label>
 								<div class="modal-field-wrapper">
-									<input id="phone" type="tel" name="phone" required />
+									<input id="phone" type="tel" name="phone" pattern="\d*" minlength="9" maxlength="12" required />
 									<svg class="modal-icon-2"><use href="./images/icons.svg#icon-phone"></use></svg>
 								</div>
 							</div>
@@ -85,16 +85,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
 							</div>
 							<div class="modal-field-wrapper">
 								<label for="comment"><span class="input-text">Comment</span></label>
-								<textarea
-									class="modal-comment"
-									required
-									name="comment"
-									id="comment"
-									placeholder="Text input"
-								></textarea>
+								<textarea class="modal-comment" name="comment" id="comment" placeholder="Text input"></textarea>
 							</div>
 							<div class="tc-wrapper">
-								<input class="modal-check visually-hidden" name="tc" id="tc" type="checkbox" />
+								<input class="modal-check visually-hidden" name="tc" id="tc" type="checkbox" required />
 								<label class="modal-check-text" for="tc">
 									<span class="modal-check-span">
 										<svg class="checkbox-icon"><use href="./images/icons.svg#icon-Vector"></use></svg>
